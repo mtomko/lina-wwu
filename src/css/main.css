@@ -1,0 +1,99 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.container {
+  max-width: 730px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  background-image: url(../img/Kimble_worm_c_elegans2_02.jpg);
+  /*background-position: 0% 25%;*/
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffc61e;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+.footer {
+  max-width: 730px;
+  align: center;
+}
+
+/* navbar settings */
+.navbar-default {
+    background-color: #01116a;
+    border-color: #0053d6;
+}
+.navbar-default .navbar-brand {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffc61e;
+}
+.navbar-default .navbar-text {
+    color: #ecf0f1;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffc61e;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffc61e;
+    background-color: #0053d6;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffc61e;
+    background-color: #0053d6;
+}
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #ecf0f1;
+    border-bottom-color: #ecf0f1;
+}
+.navbar-default .navbar-nav > .dropdown > a:hover .caret,
+.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #ffc61e;
+    border-bottom-color: #ffc61e;
+}
+.navbar-default .navbar-nav > .dropdown .dropdown-menu .divider {
+    background-color: #ecf0f1;
+}
+.navbar-default .navbar-nav > .open > a .caret, 
+.navbar-default .navbar-nav > .open > a:hover .caret, 
+.navbar-default .navbar-nav > .open > a:focus .caret {
+    border-top-color: #ffc61e;
+    border-bottom-color: #ffc61e;
+}
+.navbar-default .navbar-toggle {
+    border-color: #0053d6;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #0053d6;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ecf0f1;
+}
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffc61e;
+    }
+}
