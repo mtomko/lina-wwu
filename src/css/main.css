@@ -17,6 +17,10 @@
   position: relative;
 }
 
+.jumbotron .container {
+  max-width: 730px;
+}
+
 .jumbotron > p {
   position: absolute;
   bottom: 0;
